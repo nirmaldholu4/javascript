@@ -1,103 +1,103 @@
 let quizData = [
     {
-        question: "What is JavaScript?",
+        question: "Which of the following is correct about features of JavaScript?",
         options: [
-            "Programming Language",
-            "Database",
-            "Browser",
-            "Operating System"
+            "It is a lightweight, interpreted programming language.",
+            "It is designed for creating network-centric applications.",
+            "It is complementary to and integrated with Java.",
+            "All of the above"
         ],
-        answer: "Programming Language"
+        answer: "All of the above"
     },
     {
-        question: "Which keyword is used to declare a variable in JavaScript?",
+        question: "How can you get the type of arguments passed to a function?",
         options: [
-            "let",
-            "print",
-            "define",
-            "new"
+            "using typeof operator",
+            "using getType function",
+            "using Both of the above",
+            "None of the above"
         ],
-        answer: "let"
+        answer: "using typeof operator"
     },
     {
-        question: "Which symbol is used for single-line comments in JavaScript?",
+        question: "Which built-in method returns the character at a specified index?",
         options: [
-            "/* */",
-            "#",
-            "//",
-            "<!-- -->"
+            "characterAt()",
+            "charAt()",
+            "charCodeAt()",
+            "None of the above"
         ],
-        answer: "//"
+        answer: "charAt()"
     },
     {
-        question: "Which function is used to display a message in a popup box?",
+        question: "Which built-in method combines the text of two strings and returns a new string?",
         options: [
-            "prompt()",
-            "console.log()",
-            "display()",
-            "alert()"
+            "append()",
+            "concat()",
+            "attach()",
+            "None of the above"
         ],
-        answer: "alert()"
+        answer: "concat()"
     },
     {
-        question: "Which method is used to print output in the browser console?",
+        question: "Which built-in method returns the calling string value converted to upper case?",
         options: [
-            "console.log()",
-            "document.write()",
-            "alert()",
-            "print()"
+            "toUpperCase()",
+            "toUpper()",
+            "changeCase(upper)",
+            "None of the above"
         ],
-        answer: "console.log()"
+        answer: "toUpperCase()"
     },
     {
-        question: "Which data type is used to store true or false values?",
+        question: "Which of the following function of Array object adds elements to the front of an array?",
         options: [
-            "String",
-            "Boolean",
-            "Number",
-            "Object"
-        ],
-        answer: "Boolean"
-    },
-    {
-        question: "Which operator is used for strict equality comparison?",
-        options: [
-            "==",
-            "=",
-            "===",
-            "!="
-        ],
-        answer: "==="
-    },
-    {
-        question: "Which loop is guaranteed to execute at least once?",
-        options: [
-            "do...while",
-            "while",
-            "for",
-            "forEach"
-        ],
-        answer: "do...while"
-    },
-    {
-        question: "Which method converts a JSON string into a JavaScript object?",
-        options: [
-            "JSON.parse()",
-            "JSON.stringify()",
-            "parseJSON()",
-            "toObject()"
-        ],
-        answer: "JSON.parse()"
-    },
-    {
-        question: "Which method is used to add an element at the end of an array?",
-        options: [
-            "push()",
-            "pop()",
+            "unshift()",
             "shift()",
-            "unshift()"
+            "push()",
+            "pop()"
         ],
-        answer: "push()"
+        answer: "unshift()"
+    },
+    {
+        question: "Which of the following function of Array object returns a string representing the array?",
+        options: [
+            "toString()",
+            "toLocaleString()",
+            "join()",
+            "concat()"
+        ],
+        answer: "toString()"
+    },
+    {
+        question: "How do you create a function in JavaScript?",
+        options: [
+            "function myFunction()",
+            "function:myFunction()",
+            "function = myFunction()",
+            "None of the above"
+        ],
+        answer: "function myFunction()"
+    },
+    {
+        question: "How do you write an IF statement in JavaScript?",
+        options: [
+            "if (i == 5)",
+            "if i = 5 then",
+            "if i == 5 then",
+            "if i = 5"
+        ],
+        answer: "if (i == 5)"
+    },
+    {
+        question: "How does a FOR loop start in JavaScript?",
+        options: [
+            "for (i = 0; i <= 5; i++)",
+            "for (i <= 5; i++)",
+            "for (i = 0; i <= 5)",
+            "for i = 1 to 5"
+        ],
+        answer: "for (i = 0; i <= 5; i++)"
     }
 ];
 
