@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart" />
+</head>
+
+<body>
+    <form autocomplete="off">
+        <div class="search">
+            <aside></aside>
+            
+            <aside>
+                <input type="text" name="data" placeholder="search product" class="dropdown" list="mylist">
+
+                <datalist id="mylist">
+                    <option>productname</option>
+                    <option>price low to high</option>
+                    <option>price high to low</option>
+                </datalist>
+            </aside>
+            <aside class="cart">
+                <b>0</b>
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+            </aside>
+        </div>
+    </form>
+    <div class="wrapper">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

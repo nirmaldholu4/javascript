@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+    </div>
+
+    <script>
+        const cartPoduct = JSON.parse(localStorage.getItem('cartItems'));
+        const products = JSON.parse(localStorage.getItem('products'))
+
+        var filterproduct = [];
+
+        for (const key in products) {
+            let temp;
+            temp = products[key].filter((element) => {
+                return cartPoduct.includes(element.model);
+            });
+            filterproduct.push(...temp);
+        }
+        let section = document.createElement('section');
+
+        let main = document.createElement('main');
+        for (const element of filterproduct) {
+            let div = document.createElement('div')
+            let h3 = document.createElement('h3');
+            let img = document.createElement('img');
+            let h4 = document.createElement('h4');
+            let h5 = document.createElement('h5');
+            let p = document.createElement('p');
+            let button = document.createElement('button');
+
+            h3.append(element.company);
+            h4.append(element.model);
+            h5.append(element.price);
+            p.append(element.description);
+            img.src = element.image;
+            button.append("-");
+            button.classList.add('remove');
+
+            div.appendChild(h3);
+            div.appendChild(img);
+            div.appendChild(h4);
+            div.appendChild(h5);
+            div.appendChild(p);
+            div.appendChild(button);
+
+            main.appendChild(div);
+        }
+
+        section.appendChild(main);
+        document.querySelector('.wrapper').appendChild(section);
+
+        document.addEventListener('click', function (e) {
+            if (e.target.tagName == "BUTTON") {
+
+                console.log(e.target.parentElement.children[2].innerText);
+
+                var temp = cartPoduct.filter((element) => {
+                    return element != e.target.parentElement.children[2].innerText;
+                });
+
+                localStorage.setItem("cartItems", JSON.stringify(temp));
+
+                if (temp.length === 0) {
+                    location.href = "index.html";
+                } else {
+                    location.href = "cart.html";
+                }
+            }
+        });
+        
+    </script>
+</body>
+
+</html>
