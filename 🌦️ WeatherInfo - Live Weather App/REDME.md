@@ -161,10 +161,7 @@ screenshots/
 
 # 👨‍💻 Author
 
-**Name:** DHOLU NIRMAL.
-
-**Role:** Front-End Web Developer
-
+👉**Name:** DHOLU NIRMAL.
 ---
 
 # 🤝 Contributing
