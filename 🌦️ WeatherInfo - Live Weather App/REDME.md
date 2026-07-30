@@ -81,7 +81,7 @@ WeatherInfo/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone 
+git clone https://github.com/nirmaldholu4/javascript/tree/main/%F0%9F%8C%A6%EF%B8%8F%20WeatherInfo%20-%20Live%20Weather%20App
 ```
 
 ### 2️⃣ Open the Project Folder
@@ -122,7 +122,7 @@ https://drive.google.com/file/d/1c3Q7xYVg7mYJXnxOyzfL59UrMme5SZdD/view?usp=shari
 
 # 📸 Project Screenshots
 
-Add your screenshots inside a folder named:
+Add your screenshots inside a folder named: 🌦️ WeatherInfo - Live Weather App
 
 ```text
 screenshots/
@@ -161,7 +161,7 @@ screenshots/
 
 # 👨‍💻 Author
 
-**Name:** Nirmal
+**Name:** DHOLU NIRMAL.
 
 **Role:** Front-End Web Developer
 
@@ -189,12 +189,12 @@ and
 
 # 📄 License
 
-This project is developed for **Learning and Educational Purposes**.
+➡️ This project is developed for **Learning and Educational Purposes**. ⬅️
 
 Feel free to use and modify it for your own learning.
 
 ---
 
 <p align="center">
-Made with ❤️ using HTML, CSS & JavaScript
+👉 Made with ❤️ using HTML, CSS & JavaScript 👈
 </p>
