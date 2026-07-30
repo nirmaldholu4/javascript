@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main" id="bg-box">
+            <div class="brand">WeatherInfo</div>
+            
+            <div class="weather-info">
+                <h2>°</h2>
+                <div class="city-details">
+                    <h1>City</h1>
+                    <h3>Local Time</h3>
+                </div>
+                <div class="condition-box">
+                    <img src="" alt="icon">
+                    <span>Condition</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="search-box">
+                <input type="text" placeholder="Search Location...">
+                <button>🔎</button>
+            </div>
+
+            <ul class="cities">
+                <li>Ahmedabad</li>
+                <li>Gandhinagar</li>
+                <li>Surat</li>
+                <li>Vadodara</li>
+            </ul>
+
+            <hr>
+
+            <div class="details">
+                <h4>Weather Details</h4>
+                <p>Cloudy <span id="cloud">--%</span></p>
+                <p>Humidity <span id="humidity">--%</span></p>
+                <p>Wind <span id="wind">--km/h</span></p>
+            </div>
+
+            <hr>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
